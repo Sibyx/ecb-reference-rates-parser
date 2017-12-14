@@ -1,0 +1,21 @@
+{
+    "name": "sibyx/ecb-reference-rates-parser",
+    "description": "A simple library for parsing reference rates from European Central Bank open XML API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Dubec",
+            "email": "jakub.dubec@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "lib-libxml": "*",
+        "lib-curl": "*"
+    },
+    "autoload": {
+        "psr-4": { "EcbReferenceRates\\": "src/EcbReferenceRates/" }
+    }
+}
