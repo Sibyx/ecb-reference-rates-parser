@@ -3,6 +3,7 @@
     "description": "A simple library for parsing reference rates from European Central Bank open XML API",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Jakub Dubec",

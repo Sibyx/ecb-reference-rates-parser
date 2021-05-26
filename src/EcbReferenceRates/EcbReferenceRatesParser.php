@@ -11,7 +11,7 @@ use EcbReferenceRates\Models\RateReference;
 class EcbReferenceRatesParser
 {
 	const PACKAGE_NAME = 'EcbReferenceRatesParser';
-	const VERSION = '1.0';
+	const VERSION = '1.0.0';
 
 	public static $dataLocation = "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
 
